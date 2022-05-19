@@ -12,6 +12,6 @@ public class UsersController implements UsersApi {
 
   @Override
   public ResponseEntity<List<String>> usersGet() {
-    return ResponseEntity.ok(Arrays.asList("Joao", "Carlos"));
+    return ResponseEntity.ok(Arrays.asList("This", "Is", "Sparta!"));
   }
 }
